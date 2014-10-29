@@ -70,6 +70,6 @@ class RandomQuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def random_question_params
-      params.require(:random_question).permit(:question, :answer_1, :answer_2, :answer_3, :answer_4, :correct_answer)
+      params.require(:random_question).permit(:question, :answer_1, :answer_2, :answer_3, :answer_4, :correct_answer, :status)
     end
 end

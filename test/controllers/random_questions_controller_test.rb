@@ -18,7 +18,7 @@ class RandomQuestionsControllerTest < ActionController::TestCase
 
   test "should create random_question" do
     assert_difference('RandomQuestion.count') do
-      post :create, random_question: { answer_1: @random_question.answer_1, answer_2: @random_question.answer_2, answer_3: @random_question.answer_3, answer_4: @random_question.answer_4, correct_answer: @random_question.correct_answer, question: @random_question.question }
+      post :create, random_question: { answer_1: @random_question.answer_1, answer_2: @random_question.answer_2, answer_3: @random_question.answer_3, answer_4: @random_question.answer_4, correct_answer: @random_question.correct_answer, question: @random_question.question, status: @random_question.status }
     end
 
     assert_redirected_to random_question_path(assigns(:random_question))
@@ -35,7 +35,7 @@ class RandomQuestionsControllerTest < ActionController::TestCase
   end
 
   test "should update random_question" do
-    patch :update, id: @random_question, random_question: { answer_1: @random_question.answer_1, answer_2: @random_question.answer_2, answer_3: @random_question.answer_3, answer_4: @random_question.answer_4, correct_answer: @random_question.correct_answer, question: @random_question.question }
+    patch :update, id: @random_question, random_question: { answer_1: @random_question.answer_1, answer_2: @random_question.answer_2, answer_3: @random_question.answer_3, answer_4: @random_question.answer_4, correct_answer: @random_question.correct_answer, question: @random_question.question, status: @random_question.status }
     assert_redirected_to random_question_path(assigns(:random_question))
   end
 

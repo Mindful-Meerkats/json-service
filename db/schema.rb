@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141029175439) do
+ActiveRecord::Schema.define(version: 20141029192706) do
 
   create_table "mini_quests", force: true do |t|
     t.string   "title"
@@ -31,22 +31,15 @@ ActiveRecord::Schema.define(version: 20141029175439) do
     t.datetime "updated_at"
   end
 
-  create_table "quiz_questions", force: true do |t|
-    t.string   "question"
-    t.string   "answer_1"
-    t.string   "answer_2"
-    t.string   "answer_3"
-    t.string   "answer_4"
-    t.string   "correct_answer"
-    t.integer  "quiz_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "quizzes", force: true do |t|
     t.string   "title"
     t.text     "description"
     t.string   "status"
+    t.string   "correct_answer"
+    t.string   "answer_1"
+    t.string   "answer_2"
+    t.string   "answer_3"
+    t.string   "answer_4"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -58,6 +51,7 @@ ActiveRecord::Schema.define(version: 20141029175439) do
     t.string   "answer_3"
     t.string   "answer_4"
     t.string   "correct_answer"
+    t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

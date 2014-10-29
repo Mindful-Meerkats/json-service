@@ -1,6 +1,6 @@
 <h1>Listing quests</h1>
 
-<table>
+<table class="pure-table pure-table-horizontal">
   <thead>
     <tr>
       <th>Title</th>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Quest', new_quest_path %>
+<%= link_to 'New Quest', new_quest_path, :role => 'button', :class => "notice"  %>

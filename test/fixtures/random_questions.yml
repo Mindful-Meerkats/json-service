@@ -7,6 +7,7 @@ one:
   answer_3: MyString
   answer_4: MyString
   correct_answer: MyString
+  status: MyString
 
 two:
   question: MyString
@@ -15,3 +16,4 @@ two:
   answer_3: MyString
   answer_4: MyString
   correct_answer: MyString
+  status: MyString

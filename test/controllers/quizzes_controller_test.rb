@@ -18,7 +18,7 @@ class QuizzesControllerTest < ActionController::TestCase
 
   test "should create quiz" do
     assert_difference('Quiz.count') do
-      post :create, quiz: { description: @quiz.description, status: @quiz.status, title: @quiz.title }
+      post :create, quiz: { answer_1: @quiz.answer_1, answer_2: @quiz.answer_2, answer_3: @quiz.answer_3, answer_4: @quiz.answer_4, correct_answer: @quiz.correct_answer, description: @quiz.description, status: @quiz.status, status: @quiz.status, title: @quiz.title }
     end
 
     assert_redirected_to quiz_path(assigns(:quiz))
@@ -35,7 +35,7 @@ class QuizzesControllerTest < ActionController::TestCase
   end
 
   test "should update quiz" do
-    patch :update, id: @quiz, quiz: { description: @quiz.description, status: @quiz.status, title: @quiz.title }
+    patch :update, id: @quiz, quiz: { answer_1: @quiz.answer_1, answer_2: @quiz.answer_2, answer_3: @quiz.answer_3, answer_4: @quiz.answer_4, correct_answer: @quiz.correct_answer, description: @quiz.description, status: @quiz.status, status: @quiz.status, title: @quiz.title }
     assert_redirected_to quiz_path(assigns(:quiz))
   end
 

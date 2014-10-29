@@ -1,6 +1,6 @@
 <h1>Listing random_questions</h1>
 
-<table>
+<table class="pure-table pure-table-horizontal">
   <thead>
     <tr>
       <th>Question</th>
@@ -9,6 +9,7 @@
       <th>Answer 3</th>
       <th>Answer 4</th>
       <th>Correct answer</th>
+      <th>Status</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -22,6 +23,7 @@
         <td><%= random_question.answer_3 %></td>
         <td><%= random_question.answer_4 %></td>
         <td><%= random_question.correct_answer %></td>
+        <td><%= random_question.status %></td>
         <td><%= link_to 'Show', random_question %></td>
         <td><%= link_to 'Edit', edit_random_question_path(random_question) %></td>
         <td><%= link_to 'Destroy', random_question, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -32,4 +34,4 @@
 
 <br>
 
-<%= link_to 'New Random question', new_random_question_path %>
+<%= link_to 'New Random question', new_random_question_path, :role => 'button', :class => "notice" %>

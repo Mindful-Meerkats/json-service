@@ -1,19 +1,26 @@
 
 
-input, select, textarea, button {
+input, select, textarea, button, a[role="button"]  {
   width: 100%;
   padding: 10px;
   margin: 10px 0px;
   border-radius: 10px;
   border: 1px solid #ddd;
   outline: none;
+  text-decoration: none;
 
   &:focus {
     border-color: #0074D9;
   }
 }
 
-input[type="submit"] {
+input[type="submit"], button, a[role="button"] {
   width: auto;
   padding: 10px;
+  border: 1px solid transparent;
+}
+
+textarea {
+  max-width: 100%;
+  min-height: 150px;
 }
