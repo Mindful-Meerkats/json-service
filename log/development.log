@@ -2398,3 +2398,103 @@ Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 18:
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 18:24:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 31.201.10.62 at 2014-10-29 13:43:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.0/gems/railties-4.1.6/lib/rails/templates/rails/welcome/index.html.erb (9.8ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quizzes" for 31.201.10.62 at 2014-10-29 13:43:42 -0400
+Processing by QuizzesController#index as HTML
+  [1m[35mQuiz Load (0.6ms)[0m  SELECT "quizzes".* FROM "quizzes"
+  Rendered quizzes/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2030ms (Views: 2016.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:44 -0400
+
+
+Started GET "/assets/helpers.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:44 -0400
+
+
+Started GET "/assets/inputs.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:44 -0400
+
+
+Started GET "/assets/mini_quests.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:44 -0400
+
+
+Started GET "/assets/quests.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:44 -0400
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:44 -0400
+
+
+Started GET "/assets/quizzes.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:44 -0400
+
+
+Started GET "/assets/random_questions.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:44 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 31.201.10.62 at 2014-10-29 13:43:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 31.201.10.62 at 2014-10-29 13:43:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 31.201.10.62 at 2014-10-29 13:43:45 -0400
+
+
+Started GET "/assets/mini_quests.js?body=1" for 31.201.10.62 at 2014-10-29 13:43:45 -0400
+
+
+Started GET "/assets/quests.js?body=1" for 31.201.10.62 at 2014-10-29 13:43:45 -0400
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 31.201.10.62 at 2014-10-29 13:43:45 -0400
+
+
+Started GET "/assets/quizzes.js?body=1" for 31.201.10.62 at 2014-10-29 13:43:45 -0400
+
+
+Started GET "/assets/random_questions.js?body=1" for 31.201.10.62 at 2014-10-29 13:43:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 31.201.10.62 at 2014-10-29 13:43:45 -0400
+
+
+Started GET "/quizzes/new" for 31.201.10.62 at 2014-10-29 13:46:10 -0400
+Processing by QuizzesController#new as HTML
+  Rendered quizzes/_form.html.erb (56.2ms)
+  Rendered quizzes/new.html.erb within layouts/application (70.2ms)
+Completed 200 OK in 259ms (Views: 254.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 31.201.10.62 at 2014-10-29 13:46:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 31.201.10.62 at 2014-10-29 13:46:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 31.201.10.62 at 2014-10-29 13:46:10 -0400
+
+
+Started GET "/assets/helpers.css?body=1" for 31.201.10.62 at 2014-10-29 13:46:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (4.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/pure/all.css?body=1" for 31.201.10.62 at 2014-10-29 13:46:14 -0400
+
+
+Started GET "/assets/helpers.css?body=1" for 31.201.10.62 at 2014-10-29 13:46:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 31.201.10.62 at 2014-10-29 13:46:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
