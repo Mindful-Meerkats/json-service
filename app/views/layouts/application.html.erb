@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mindful Meerkays | Json Services</title>
+  <title>Mindful Meerkats | Json Services</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<%= yield %>
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="#">MM</a>
+
+            <ul>
+                <li><%= link_to 'Mini Quests', mini_quests_path %></a></li>
+                <li><%= link_to 'Quests', quests_path %></a></li>
+                <li><%= link_to 'Quiz', quizzes_path %></a></li>
+
+                <li class="menu-item-divided">
+                    <a href="https://bitbucket.org/mindfulmeerkats/json-service/issues/new" target="_blank">Issues</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+      <%= yield %>
+    </div>
+</div>
+
+
 
 </body>
 </html>

@@ -37,9 +37,9 @@
   </div>
   <div class="field">
     <%= f.label :quiz_id %><br>
-    <%= f.number_field :quiz_id %>
+    <%= f.select :quiz_id, Quiz.all.collect{ |q| [q.title, q.id] }%>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Submit", :class => "notice"%>
   </div>
 <% end %>

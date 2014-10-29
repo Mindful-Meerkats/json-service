@@ -12,5 +12,26 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+
+
+
+
+// UI js
+
+(function (window, document) {
+
+    var $layout   = $('#layout'),
+        $menu     = ('#menu'),
+        $menuLink = $('#menuLink');
+
+
+    $menuLink.click(function() {
+        var active = 'active';
+
+        $layout.toggleClass(active);
+        $menu.toggleClass(active);
+        $(this).toggleClass(active);
+    });
+
+}(this, this.document));
