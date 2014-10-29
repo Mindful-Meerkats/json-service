@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @mini_quest.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @mini_quest.description %>
+</p>
+
+<p>
+  <strong>Completed text:</strong>
+  <%= @mini_quest.completed_text %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @mini_quest.status %>
+</p>
+
+<%= link_to 'Edit', edit_mini_quest_path(@mini_quest) %> |
+<%= link_to 'Back', mini_quests_path %>

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @random_question.question %>
+</p>
+
+<p>
+  <strong>Answer 1:</strong>
+  <%= @random_question.answer_1 %>
+</p>
+
+<p>
+  <strong>Answer 2:</strong>
+  <%= @random_question.answer_2 %>
+</p>
+
+<p>
+  <strong>Answer 3:</strong>
+  <%= @random_question.answer_3 %>
+</p>
+
+<p>
+  <strong>Answer 4:</strong>
+  <%= @random_question.answer_4 %>
+</p>
+
+<p>
+  <strong>Correct answer:</strong>
+  <%= @random_question.correct_answer %>
+</p>
+
+<%= link_to 'Edit', edit_random_question_path(@random_question) %> |
+<%= link_to 'Back', random_questions_path %>

@@ -1,0 +1,31 @@
+<h1>Listing mini_quests</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Completed text</th>
+      <th>Status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mini_quests.each do |mini_quest| %>
+      <tr>
+        <td><%= mini_quest.title %></td>
+        <td><%= mini_quest.description %></td>
+        <td><%= mini_quest.completed_text %></td>
+        <td><%= mini_quest.status %></td>
+        <td><%= link_to 'Show', mini_quest %></td>
+        <td><%= link_to 'Edit', edit_mini_quest_path(mini_quest) %></td>
+        <td><%= link_to 'Destroy', mini_quest, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mini quest', new_mini_quest_path %>

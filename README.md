@@ -14,7 +14,7 @@ If you want to work local you need to do the following to get started.
 
 ### Setting up rails
 
-First of all you need to have the proper enviroment set up.
+First of all you need to have the proper environment set up.
 If you are working on a Mac:
 
     gem install rails
@@ -46,7 +46,7 @@ And this will install everything thats in the Gemfile
 
 ### Database
 
-To get use an empty testing database on your local enviroment, you use:
+To get use an empty testing database on your local environment, you use:
 
     rake db:create
     rake db:migrate
@@ -54,7 +54,7 @@ To get use an empty testing database on your local enviroment, you use:
 
 ### Rails server
 
-To start the service on your local enviroment use:
+To start the service on your local environment use:
 
   rails server
 
