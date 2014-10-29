@@ -29,7 +29,11 @@ Once you have done that, you can say:
 
 You will need the code to get it use:
 
-    git clone
+    git clone git@bitbucket.org:mindfulmeerkats/json-service.git
+
+And make sure you have an ssh-key added to your account. If you want to use git over HTTPS:
+
+    git clone https://RamonGebben@bitbucket.org/mindfulmeerkats/json-service.git
 
 ### Bundle
 You need to install all the dependencies you need for running the service.
