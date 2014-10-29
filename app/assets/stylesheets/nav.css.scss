@@ -1,0 +1,21 @@
+
+
+.log_out {
+  a:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f08b";
+    font-size: 25px;
+    float: right;
+    padding-right: 10px;
+  }
+}
+
+.log_in {
+  a:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f090";
+    font-size: 25px;
+    float: right;
+    padding-right: 10px;
+  }
+}

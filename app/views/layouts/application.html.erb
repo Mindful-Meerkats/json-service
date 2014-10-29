@@ -29,13 +29,24 @@
                 <li class="menu-item-divided">
                     <a href="https://bitbucket.org/mindfulmeerkats/json-service/issues/new" target="_blank">Issues</a>
                 </li>
-
+                <% if current_user %>
+                  <li><%= link_to "Create User", create_user_path %></li>
+                  <li class="log_out"><%= link_to "Log out", log_out_path %></li>
+                <% else %>
+                  <li class="log_in"><%= link_to "Log in", log_in_path %></li>
+                <% end %>
 
             </ul>
         </div>
     </div>
 
     <div id="main">
+
+      <% flash.each do |name, msg| %>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      <% end %>
+
+
       <%= yield %>
     </div>
 </div>

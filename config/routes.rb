@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+
+  get 'users/new'
+
+  get "log_out" => "sessions#destroy", :as => "log_out"
+  get "log_in" => "sessions#new", :as => "log_in"
+  get "user/new" => "users#new", :as => "create_user"
+  root "sessions#new"
+
+  resources :users
+
+  resources :sessions
+
   resources :random_questions
 
   resources :quiz_questions

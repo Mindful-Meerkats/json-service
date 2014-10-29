@@ -1,5 +1,6 @@
 class MiniQuestsController < ApplicationController
   before_action :set_mini_quest, only: [:show, :edit, :update, :destroy]
+  before_filter :logged_in?, only: [:edit, :update, :destroy]
 
   # GET /mini_quests
   # GET /mini_quests.json

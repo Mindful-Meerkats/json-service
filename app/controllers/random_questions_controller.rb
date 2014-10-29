@@ -1,5 +1,6 @@
 class RandomQuestionsController < ApplicationController
   before_action :set_random_question, only: [:show, :edit, :update, :destroy]
+  before_filter :logged_in?, only: [:edit, :update, :destroy]
 
   # GET /random_questions
   # GET /random_questions.json

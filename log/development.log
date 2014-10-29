@@ -2498,3 +2498,1580 @@ Started GET "/assets/helpers.css?body=1" for 31.201.10.62 at 2014-10-29 13:46:14
 
 Started GET "/assets/application.css?body=1" for 31.201.10.62 at 2014-10-29 13:46:14 -0400
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2014-10-29 18:51:47 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuizzesController#index as HTML
+  [1m[35mQuiz Load (0.2ms)[0m  SELECT "quizzes".* FROM "quizzes"
+  Rendered quizzes/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 266ms (Views: 260.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:47 +0100
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 18:51:48 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20141029175439)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141029175439"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2014-10-29 19:05:22 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuizzesController#index as HTML
+  [1m[35mQuiz Load (0.2ms)[0m  SELECT "quizzes".* FROM "quizzes"
+  Rendered quizzes/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 406ms (Views: 399.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:23 +0100
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2014-10-29 19:05:28 +0100
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 4ms
+
+NameError (undefined local variable or method `some_path' for #<UsersController:0x007fb27518a950>):
+  app/controllers/application_controller.rb:20:in `logged_in?'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.1ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2014-10-29 19:05:49 +0100
+Processing by UsersController#new as HTML
+Redirected to http://localhost:3000/log_in
+Filter chain halted as :logged_in? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/log_in" for 127.0.0.1 at 2014-10-29 19:05:49 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:05:50 +0100
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'ramon@ra-ge.net' LIMIT 1
+Binary data inserted for `string` type on column `password_hash`
+Binary data inserted for `string` type on column `password_salt`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "password_hash", "password_salt", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-10-29 18:06:45.075639"], ["email", "ramon@ra-ge.net"], ["password_hash", "$2a$10$hdNo.Hh.2SKgQmLEPbOcGO./hM1F5kwjRDbHwR6bgmF3eLXuDuJw."], ["password_salt", "$2a$10$hdNo.Hh.2SKgQmLEPbOcGO"], ["updated_at", "2014-10-29 18:06:45.075639"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8V4KM1npTT3muOkpKTd+bU6aLd/MPtqZAEFtulrX4LM=", "email"=>"ramon@ra-ge.net", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'ramon@ra-ge.net' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 91ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 127ms (Views: 126.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:06:58 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:10:10 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 125ms (Views: 123.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:11 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:10:18 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 131ms (Views: 130.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:18 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:18 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:18 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:18 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:18 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:18 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:10:19 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 128ms (Views: 128.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:11:06 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:12:06 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 123ms (Views: 122.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:12:07 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:15:27 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (20.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 392ms (Views: 390.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-10-29 19:15:29 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:17:18 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 171ms (Views: 170.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:19 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:17:30 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 159ms (Views: 159.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:31 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 171ms (Views: 170.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:17:38 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 168ms (Views: 167.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:16 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:18:17 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 175ms (Views: 174.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:33 +0100
+
+
+Started GET "/log_out" for 127.0.0.1 at 2014-10-29 19:19:44 +0100
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:19:44 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 142ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:19:45 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 133ms (Views: 133.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:05 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:20:06 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:21:22 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 184ms (Views: 183.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:22 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:22 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:22 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:22 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:22 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:22 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:23 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:39 +0100
+
+
+Started GET "/log_in" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 138ms (Views: 137.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:42 +0100
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-10-29 19:21:50 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8V4KM1npTT3muOkpKTd+bU6aLd/MPtqZAEFtulrX4LM=", "email"=>"ramon@ra-ge.net", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'ramon@ra-ge.net' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 134ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 19:21:50 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 103ms (Views: 103.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/quiz_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/quiz_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 19:21:51 +0100

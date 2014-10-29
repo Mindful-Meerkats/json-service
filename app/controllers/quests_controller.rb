@@ -1,5 +1,6 @@
 class QuestsController < ApplicationController
   before_action :set_quest, only: [:show, :edit, :update, :destroy]
+  before_filter :logged_in?, only: [:edit, :update, :destroy]
 
   # GET /quests
   # GET /quests.json

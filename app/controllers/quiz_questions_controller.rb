@@ -1,6 +1,7 @@
 class QuizQuestionsController < ApplicationController
   before_action :set_quiz_question, only: [:show, :edit, :update, :destroy]
-
+  before_filter :logged_in?, only: [:edit, :update, :destroy]
+  
   # GET /quiz_questions
   # GET /quiz_questions.json
   def index
