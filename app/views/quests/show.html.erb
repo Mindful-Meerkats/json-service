@@ -1,24 +1,13 @@
-<p id="notice"><%= notice %></p>
+<p id="notice" class="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @quest.title %>
-</p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @quest.description %>
-</p>
+<%= link_to 'Edit', edit_quest_path(@quest), :class => "notice pull-right", :role => "button"  %>
+<%= link_to 'Back', quests_path, :class => "default pull-right", :role => "button"  %>
 
-<p>
-  <strong>Completed text:</strong>
-  <%= @quest.completed_text %>
-</p>
+<h1><%= @quest.title %></h1>
 
-<p>
-  <strong>Status:</strong>
-  <%= @quest.status %>
-</p>
+<h3>Quest description</h3>
+<p><%= raw @quest.description %></p>
 
-<%= link_to 'Edit', edit_quest_path(@quest) %> |
-<%= link_to 'Back', quests_path %>
+<h3>Completed</h3>
+<p><%= raw @quest.completed_text %></p>

@@ -6569,3 +6569,420 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-29 20:36:58 +0100
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-29 20:36:58 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:09:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 437ms (Views: 436.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 90ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-10-31 17:09:41 +0100
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-10-31 17:09:51 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"atbL3Fqh4idfnlZLwGxsMsznbAaMIYC0lCCdlCopq2M=", "email"=>"demo@demo.nl", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'demo@demo.nl' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 91ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 17:09:51 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 133ms (Views: 132.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mini_quests" for 127.0.0.1 at 2014-10-31 17:09:54 +0100
+Processing by MiniQuestsController#index as HTML
+  [1m[35mMiniQuest Load (0.4ms)[0m  SELECT "mini_quests".* FROM "mini_quests"
+  Rendered mini_quests/index.html.erb within layouts/application (9.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 169ms (Views: 163.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/mini_quests" for 127.0.0.1 at 2014-10-31 17:10:37 +0100
+Processing by MiniQuestsController#index as HTML
+  [1m[35mMiniQuest Load (0.1ms)[0m  SELECT "mini_quests".* FROM "mini_quests"
+  Rendered mini_quests/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 161ms (Views: 160.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mini_quests" for 127.0.0.1 at 2014-10-31 17:10:39 +0100
+Processing by MiniQuestsController#index as HTML
+  [1m[35mMiniQuest Load (0.1ms)[0m  SELECT "mini_quests".* FROM "mini_quests"
+  Rendered mini_quests/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 103ms (Views: 101.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quests" for 127.0.0.1 at 2014-10-31 17:10:39 +0100
+Processing by QuestsController#index as HTML
+  [1m[35mQuest Load (0.4ms)[0m  SELECT "quests".* FROM "quests"
+  Rendered quests/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 104ms (Views: 101.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2014-10-31 17:10:41 +0100
+Processing by QuizzesController#index as HTML
+  [1m[35mQuiz Load (0.6ms)[0m  SELECT "quizzes".* FROM "quizzes"
+  Rendered quizzes/index.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 134ms (Views: 131.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2014-10-31 17:10:43 +0100
+Processing by QuizzesController#index as HTML
+  [1m[35mQuiz Load (0.4ms)[0m  SELECT "quizzes".* FROM "quizzes"
+  Rendered quizzes/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 155ms (Views: 154.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quests" for 127.0.0.1 at 2014-10-31 17:10:44 +0100
+Processing by QuestsController#index as HTML
+  [1m[35mQuest Load (0.3ms)[0m  SELECT "quests".* FROM "quests"
+  Rendered quests/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 140ms (Views: 139.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quests/new" for 127.0.0.1 at 2014-10-31 17:10:46 +0100
+Processing by QuestsController#new as HTML
+  Rendered quests/_form.html.erb (26.2ms)
+  Rendered quests/new.html.erb within layouts/application (30.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 167ms (Views: 166.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/mini_quests" for 127.0.0.1 at 2014-10-31 17:16:16 +0100
+Processing by MiniQuestsController#index as HTML
+  [1m[36mMiniQuest Load (0.1ms)[0m  [1mSELECT "mini_quests".* FROM "mini_quests"[0m
+  Rendered mini_quests/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 358ms (Views: 356.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mini_quests/1" for 127.0.0.1 at 2014-10-31 17:16:19 +0100
+Processing by MiniQuestsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiniQuest Load (0.2ms)[0m  [1mSELECT  "mini_quests".* FROM "mini_quests"  WHERE "mini_quests"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered mini_quests/show.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 168ms (Views: 166.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mini_quests/1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+Processing by MiniQuestsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiniQuest Load (0.2ms)[0m  [1mSELECT  "mini_quests".* FROM "mini_quests"  WHERE "mini_quests"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered mini_quests/show.html.erb within layouts/application (3.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 285ms (Views: 283.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/helpers.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 18:11:53 +0100
+
+
+Started GET "/mini_quests/1/edit" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+Processing by MiniQuestsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiniQuest Load (0.1ms)[0m  [1mSELECT  "mini_quests".* FROM "mini_quests"  WHERE "mini_quests"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered mini_quests/_form.html.erb (3.8ms)
+  Rendered mini_quests/edit.html.erb within layouts/application (5.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 133ms (Views: 131.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:00 +0100
+
+
+Started PATCH "/mini_quests/1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+Processing by MiniQuestsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"atbL3Fqh4idfnlZLwGxsMsznbAaMIYC0lCCdlCopq2M=", "mini_quest"=>{"title"=>"lwejfj", "description"=>"jrfljqwrjflfk34jkfl;3kfk;3", "completed_text"=>"ejrfljw"}, "commit"=>"Update Mini quest", "id"=>"1"}
+  [1m[36mMiniQuest Load (0.1ms)[0m  [1mSELECT  "mini_quests".* FROM "mini_quests"  WHERE "mini_quests"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "mini_quests" SET "description" = ?, "updated_at" = ? WHERE "mini_quests"."id" = 1[0m  [["description", "jrfljqwrjflfk34jkfl;3kfk;3"], ["updated_at", "2014-10-31 17:12:04.553142"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/mini_quests/1
+Completed 302 Found in 7ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/mini_quests/1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+Processing by MiniQuestsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiniQuest Load (0.1ms)[0m  [1mSELECT  "mini_quests".* FROM "mini_quests"  WHERE "mini_quests"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered mini_quests/show.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/mini_quests.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/pure/all.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/inputs.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/random_questions.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/mini_quests.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/random_questions.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 18:12:04 +0100
+
+
+Started GET "/mini_quests/1.json" for 127.0.0.1 at 2014-10-31 18:12:16 +0100
+Processing by MiniQuestsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mMiniQuest Load (0.1ms)[0m  [1mSELECT  "mini_quests".* FROM "mini_quests"  WHERE "mini_quests"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered mini_quests/show.json.jbuilder (4.8ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.1ms)
