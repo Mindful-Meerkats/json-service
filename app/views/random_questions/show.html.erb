@@ -1,27 +1,27 @@
-<p id="notice"><%= notice %></p>
+<%= link_to ' Edit', edit_random_question_path(@random_question), :class => "notice pull-right fa fa-pencil-square-o", :role => "button" %>
+<%= link_to ' Back', random_questions_path, :class => "default pull-right fa fa-chevron-left", :role => "button" %>
+
+
+<h1><%= @random_question.question %></h1>
+
 
 <p>
-  <strong>Question:</strong>
-  <%= @random_question.question %>
-</p>
-
-<p>
-  <strong>Answer 1:</strong>
+  <strong>A.</strong>
   <%= @random_question.answer_1 %>
 </p>
 
 <p>
-  <strong>Answer 2:</strong>
+  <strong>B.</strong>
   <%= @random_question.answer_2 %>
 </p>
 
 <p>
-  <strong>Answer 3:</strong>
+  <strong>C.</strong>
   <%= @random_question.answer_3 %>
 </p>
 
 <p>
-  <strong>Answer 4:</strong>
+  <strong>D.</strong>
   <%= @random_question.answer_4 %>
 </p>
 
@@ -29,11 +29,3 @@
   <strong>Correct answer:</strong>
   <%= @random_question.correct_answer %>
 </p>
-
-<p>
-  <strong>Status:</strong>
-  <%= @random_question.status %>
-</p>
-
-<%= link_to 'Edit', edit_random_question_path(@random_question) %> |
-<%= link_to 'Back', random_questions_path %>

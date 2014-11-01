@@ -12,9 +12,8 @@
     <% @mini_quests.each do |mini_quest| %>
       <tr>
         <td><%= link_to mini_quest.title, mini_quest %></td>
-        <td><%= link_to 'Show', mini_quest %></td>
-        <td><%= link_to 'Edit', edit_mini_quest_path(mini_quest) %></td>
-        <td><%= link_to 'Destroy', mini_quest, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to ' ', edit_mini_quest_path(mini_quest), :class => "fa fa-pencil-square-o" %></td>
+        <td><%= link_to ' ', mini_quest, method: :delete, data: { confirm: 'Are you sure?' }, :class => "fa fa-trash-o" %></td>
       </tr>
     <% end %>
   </tbody>

@@ -12,25 +12,49 @@
 .notice {
   background-color: #0074D9;
   border: 1px solid #111 !important;
-  color: white;
+  color: white !important;
+  transition: background .3s;
+
+  &:hover {
+    transition: background .3s;
+    background-color: darken(#0074D9, 10%);
+  }
 }
 
 .success {
   background-color: #2ECC40;
   border: 1px solid #111 !important;
-  color: white;
+  color: white !important;
+  transition: background .3s;
+
+  &:hover {
+    transition: background .3s;
+    background-color: darken(#2ECC40, 10%);
+  }
 }
 
 .danger {
   background-color: #FF4136;
   border: 1px solid #111 !important;
-  color: white;
+  color: white !important;
+  transition: background .3s;
+
+  &:hover {
+    transition: background .3s;
+    background-color: darken(#FF4136, 10%);
+  }
 }
 
 .default {
   background-color: #d7d7d7;
   border: 1px solid #111 !important;
-  color: #111;
+  color: #111 !important;
+  transition: background .3s;
+
+  &:hover {
+    transition: background .3s;
+    background-color: darken(#d7d7d7, 10%);
+  }
 }
 
 

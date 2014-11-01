@@ -11,10 +11,9 @@
   <tbody>
     <% @random_questions.each do |random_question| %>
       <tr>
-        <td><%= random_question.question %></td>
-        <td><%= link_to 'Show', random_question %></td>
-        <td><%= link_to 'Edit', edit_random_question_path(random_question) %></td>
-        <td><%= link_to 'Destroy', random_question, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to random_question.question, random_question %></td>
+        <td><%= link_to ' ', edit_random_question_path(random_question), :class => "fa fa-pencil-square-o" %></td>
+        <td><%= link_to ' ', random_question, method: :delete, data: { confirm: 'Are you sure?' }, :class => "fa fa-trash-o" %></td>
       </tr>
     <% end %>
   </tbody>
