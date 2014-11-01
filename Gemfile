@@ -43,3 +43,6 @@ gem 'pure-sass'
 
 # https://github.com/bokmann/font-awesome-rails
 gem "font-awesome-rails"
+
+# RDicount for pretty markdown view
+gem 'rdiscount'

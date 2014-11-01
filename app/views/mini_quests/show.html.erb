@@ -1,4 +1,3 @@
-<p id="notice" class="notice"><%= notice %></p>
 
 <%= link_to 'Edit', edit_mini_quest_path(@mini_quest), :class => "notice pull-right", :role => "button" %>
 <%= link_to 'Back', mini_quests_path, :class => "default pull-right", :role => "button" %>
@@ -6,7 +5,7 @@
 <h1><%= @mini_quest.title %></h1>
 
 <h3>Quest description</h3>
-<p><%= raw @mini_quest.description %></p>
+<%= raw RDiscount.new(@mini_quest.description, :smart, :footnotes ).to_html %>
 
 <h3>Completed</h3>
-<p><%= raw @mini_quest.completed_text %></p>
+<%= raw RDiscount.new(@mini_quest.completed_text, :smart, :footnotes ).to_html %>
