@@ -36,6 +36,8 @@
 
 }(this, this.document));
 
+
+
 /// Editor
 $(document).ready(function () {
     var converter1 = Markdown.getSanitizingConverter();
@@ -52,8 +54,10 @@ $(document).ready(function () {
 
     var converter2 = new Markdown.Converter();
 
-    converter2.hooks.chain("preConversion", function (text) {
-        return text.replace(/\b(a\w*)/gi, "*$1*");
+    converter2.hooks.chain("preBlockGamut", function (text, rbg) {
+        return text.replace(/^ {0,3}""" *\n((?:.*?\n)+?) {0,3}""" *$/gm, function (whole, inner) {
+            return "<blockquote>" + rbg(inner) + "</blockquote>\n";
+        });
     });
 
     converter2.hooks.chain("plainLinkText", function (url) {
