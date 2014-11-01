@@ -17,15 +17,11 @@
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_area :description %>
-  </div>
-  <div class="field">
-    <%= f.label :status %><br>
-    <%= f.text_field :status %>
-  </div>
-  <div class="field">
-    <%= f.label :correct_answer %><br>
-    <%= f.text_field :correct_answer %>
+    <div class="wmd-panel">
+      <div id="wmd-button-bar"></div>
+      <%= f.text_area :description, :class => "wmd-input", :id =>"wmd-input" %>
+      <div id="wmd-preview" class="wmd-panel wmd-preview"></div>
+    </div>
   </div>
   <div class="field">
     <%= f.label :answer_1 %><br>
@@ -42,6 +38,10 @@
   <div class="field">
     <%= f.label :answer_4 %><br>
     <%= f.text_field :answer_4 %>
+  </div>
+  <div class="field">
+    <%= f.label :correct_answer %><br>
+    <%= f.text_field :correct_answer %>
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -1,6 +1,6 @@
 <%= form_for(@quest) do |f| %>
   <% if @quest.errors.any? %>
-    <div id="error_explanation">
+    <div class="alert danger">
       <h2><%= pluralize(@quest.errors.count, "error") %> prohibited this quest from being saved:</h2>
 
       <ul>
@@ -9,6 +9,11 @@
       <% end %>
       </ul>
     </div>
+    <script>
+      setTimeout(function(){
+        $(".alert.danger").fadeOut();
+      }, 1500)
+    </script>
   <% end %>
 
   <div class="field">
@@ -17,11 +22,18 @@
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <div class="wmd-panel">
+      <div id="wmd-button-bar"></div>
+      <%= f.text_area :description, :class => "wmd-input", :id =>"wmd-input" %>
+      <div id="wmd-preview" class="wmd-panel wmd-preview"></div>
+    </div>
   </div>
   <div class="field">
     <%= f.label :completed_text %><br>
-    <%= f.text_area :completed_text %>
+    <div class="wmd-panel">
+      <div id="wmd-button-bar-second"></div>
+      <%= f.text_area :completed_text, :class => "wmd-input", :id => "wmd-input-second" %>
+      <div id="wmd-preview-second" class="wmd-panel wmd-preview"></div>
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -3,7 +3,8 @@
 <h1><%= @quiz.title %></h1>
 
   <h3>Description:</h3>
-  <%=  @quiz.description %>
+  <%= raw RDiscount.new(@quiz.description, :smart, :footnotes ).to_html %>
+
 
   <strong>Correct answer:</strong>
   <%= @quiz.correct_answer %>

@@ -29,6 +29,7 @@
                 <li><%= link_to 'Mini Quests', mini_quests_path %></a></li>
                 <li><%= link_to 'Quests', quests_path %></a></li>
                 <li><%= link_to 'Quiz', quizzes_path %></a></li>
+                <li><%= link_to 'Questions', random_questions_path %></a></li>
 
                 <li class="menu-item-divided">
                     <a href="https://bitbucket.org/mindfulmeerkats/json-service/issues/new" target="_blank">Issues</a>
@@ -48,7 +49,7 @@
         <%= content_tag :div, msg, :class => "alert #{name}" %>
         <script>
           setTimeout(function(){
-            $('<%= ".alert.#{name}" %>').hide();
+            $('<%= ".alert.#{name}" %>').fadeOut();
           }, 1500)
         </script>
       <% end %>

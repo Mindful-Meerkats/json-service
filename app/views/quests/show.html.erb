@@ -7,7 +7,7 @@
 <h1><%= @quest.title %></h1>
 
 <h3>Quest description</h3>
-<p><%= raw @quest.description %></p>
+<%= raw RDiscount.new(@quest.description, :smart, :footnotes ).to_html %>
 
 <h3>Completed</h3>
 <p><%= raw @quest.completed_text %></p>
