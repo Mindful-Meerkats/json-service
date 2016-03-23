@@ -1,5 +1,5 @@
 # Json Services
-
+# Depricated
 This is the part of the platform that hold all the data, stories, questions, quests and you name it. Everything lives here!
 
 ## Versions
